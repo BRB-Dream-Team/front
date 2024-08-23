@@ -51,8 +51,6 @@ export default{
                <h3>Elevate Your Typing: Meet the Wooden Keyboard</h3>
                <h1>Akmal Salikhov</h1>
                <p>Designed for those who appreciate timeless elegance and superior craftsmanship, this keyboard offers a unique typing experience</p>
-               <button>Product Design</button>
-               <button>Khorezm, UZB</button>
            </div>
        </div>
    </div>

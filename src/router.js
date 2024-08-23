@@ -5,7 +5,7 @@ import Sign_In from "./components/Sign_In.vue";
 export default createRouter({
     history: createWebHashHistory(),
     routes: [
-        { path: '/main', component: MainContainer },
-        { path: '/si', component: Sign_In }
+        { path: '/home', component: MainContainer },
+        { path: '/signup', component: Sign_In }
     ]
 })

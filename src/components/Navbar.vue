@@ -26,12 +26,12 @@
             <a href="#">BIRGA for enterpreneurs</a>
         </div>
     </div>
-           <button>Login/Sign up</button> 
+           <button><a a href="#/signup">Login/Sign up</a></button> 
            
        </div>
 
-       <div class="logo">
-           <img src="../assets/logo.png" alt="Logo" width="104" height="23">
+       <div class="logo"><a a href="#/home">
+           <img src="../assets/logo.png" alt="Logo" width="104" height="23"></a>
        </div>
 
        <div class="nav-buttons" style="margin-left: auto;">

@@ -180,26 +180,18 @@ export default{
 
 .svg-container {
     display: flex;
-    justify-content: center; /* Центрирует SVG по горизонтали */
-    align-items: center;     /* Центрирует SVG по вертикали, если контейнер имеет высоту */
-    /*height: 100vh;            Высота контейнера равна высоте окна браузера (опционально) */
+    justify-content: center; 
+    align-items: center;   
+    /*height: 100vh;          */
 }
 
 .svg-container svg {
-    width: 400px; /* Устанавливаем желаемую ширину SVG */
-    height: auto; /* Автоматически изменяем высоту, чтобы сохранить пропорции */
-    margin-top: 60px; /* Отступ сверху */
+    width: 400px;
+    height: auto; 
+    margin-top: 60px; 
     margin-left: 70px;
 }
 
-/* svg {
-    text-align: center;
-    width: 614;
-    height: 132;
-    margin-left: 20vh;
-    margin-top: 10px;
-     
- } */
 
 
 p {

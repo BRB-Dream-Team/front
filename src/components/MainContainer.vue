@@ -328,10 +328,11 @@ export default{
 
 .svg-container {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;   
+    /*height: 100vh;          */ 
        
-}
+} 
 
 .svg-container svg {
     width: 400px; 

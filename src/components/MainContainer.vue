@@ -281,7 +281,7 @@ export default{
 
                 </div>
             </div>
-
+        
 
         </div>
     </div>
@@ -561,6 +561,7 @@ export default{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.2s;
+    display: grid;
 
 
     margin-top: 200px;
@@ -577,9 +578,6 @@ export default{
     color: white;
     text-align: center;
     font-size: 26px;
-
-
-
 }
 
 .footer-content p {
@@ -638,8 +636,6 @@ a{
 
 
 .icons p{
-    font-family: 'Montserrat', serif; 
-    font-style: regular;
     font-size: 32px;
  }
 
@@ -648,7 +644,7 @@ a{
    display: flex;
    gap: 15px;
    padding-left: 90vh;
-   items-align: center;
+   text-align: center;
  
 }
 

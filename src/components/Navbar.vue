@@ -29,11 +29,12 @@
             </div>
          </div>
          
-         <button><a a href="#/signup">Login / Sign up</a></button> 
+         <button><a a href="/signup">Sign up</a></button> 
+         <button><a a href="/login">Login</a></button> 
          
       </div>
 
-      <div class="logo"><a a href="#/home">
+      <div class="logo"><a a href="/home">
          <img src="../assets/logo.png" alt="Logo" width="104" height="23"></a>
       </div>
 

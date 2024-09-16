@@ -16,17 +16,19 @@ COPY . .
 # Build app for production with minification
 RUN npm run build
 
-# Production stage
-FROM nginx:stable-alpine as production-stage
+# # Production stage
+# FROM nginx:stable-alpine as production-stage
 
-# Copy custom nginx configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# # Copy custom nginx configuration
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy built assets from `build-stage`
-COPY --from=build-stage /app/dist /usr/share/nginx/html
+# # Copy built assets from `build-stage`
+# COPY --from=build-stage /app/dist /usr/share/nginx/html
 
-# Expose port 80
-EXPOSE 80
+# # Expose port 80
+# EXPOSE 80
 
-# Run nginx
-CMD ["nginx", "-g", "daemon off;"]
+# # Run nginx
+# CMD ["nginx", "-g", "daemon off;"]
+
+CMD ["npm", "run", "dev"]
